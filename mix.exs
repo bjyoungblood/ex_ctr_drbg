@@ -59,7 +59,6 @@ defmodule CtrDrbg.MixProject do
 
   defp docs do
     [
-      main: "README",
       extras: ["README.md"],
       source_ref: "v#{@version}",
       source_url: @source_url
