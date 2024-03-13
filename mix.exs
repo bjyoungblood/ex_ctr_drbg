@@ -1,7 +1,7 @@
 defmodule CtrDrbg.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @source_url "https://github.com/bjyoungblood/ctr_drbg"
 
   def project do
@@ -40,7 +40,7 @@ defmodule CtrDrbg.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/smartrent/grizzly"}
+      links: %{"GitHub" => @source_url}
     ]
   end
 
